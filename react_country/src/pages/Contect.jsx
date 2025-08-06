@@ -3,6 +3,7 @@ export const Contect = () => {
     // console.log(formData.entries());
     const formInputData = object.formEntries(formData.entries() );
     console.log(formInputData);
+    console.log(formInputData);
 };
 
     return (
