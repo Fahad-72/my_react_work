@@ -1,0 +1,19 @@
+[
+    {
+        "icon":"MdPlace",
+        "title":"Find Us",
+        "details":"Islamabad"
+    },
+    
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "03165608060"
+  },
+
+     {
+        "icon":"TbMailPlus",
+        "title":"Mail Us",
+        "details":"mughalfahad098@gmail.com"
+    }
+]

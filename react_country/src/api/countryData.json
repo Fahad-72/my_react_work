@@ -1,0 +1,80 @@
+[
+  {
+    "id": 0,
+    "countryName": "World",
+    "capital": "N/A",
+    "population": 8000000000,
+    "interestingFacts": "Earth is the only known planet to support life, has 70% of its surface covered in water, and orbits the Sun at an average distance of 93 million miles."
+  },
+  {
+    "id": 1,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125800000,
+    "interestingFacts": "Japan has more than 6,800 islands and vending machines selling everything from ramen to umbrellas."
+  },
+  {
+    "id": 2,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 38930000,
+    "interestingFacts": "Canada has the longest coastline in the world, stretching over 202,000 kilometers."
+  },
+  {
+    "id": 3,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 203000000,
+    "interestingFacts": "Brazil is home to the Amazon Rainforest, which produces 20% of the world’s oxygen."
+  },
+  {
+    "id": 4,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1410000000,
+    "interestingFacts": "India is the world’s largest democracy and birthplace of four major world religions."
+  },
+  {
+    "id": 5,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "population": 144000000,
+    "interestingFacts": "Russia spans 11 time zones and is the largest country in the world by land area."
+  },
+  {
+    "id": 6,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 26500000,
+    "interestingFacts": "Australia is home to more kangaroos than people and has pink lakes due to algae and salt."
+  },
+  {
+    "id": 7,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 112000000,
+    "interestingFacts": "Egypt is home to the only remaining ancient wonder of the world — the Great Pyramid of Giza."
+  },
+  {
+    "id": 8,
+    "countryName": "Norway",
+    "capital": "Oslo",
+    "population": 5500000,
+    "interestingFacts": "Norway is known for its stunning fjords and ranks consistently high on global happiness and equality indexes."
+  },
+  {
+    "id": 9,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": 1402000000,
+    "interestingFacts": "China built the Great Wall, which is over 21,000 kilometers long and visible from space."
+  },
+  {
+    "id": 10,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": 59000000,
+    "interestingFacts": "Italy has more UNESCO World Heritage sites than any other country in the world."
+  }
+]
+
