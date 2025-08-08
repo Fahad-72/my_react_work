@@ -13,9 +13,10 @@ export const getCountryData =()=>{
 //http get methos for ind countries names
 
 // in postApi.js
-export const getCountryindiData = (code) => {
+export const getCountryindiData = ({name}) => {
   return api.get(
-    `/alpha/${code}?fields=name,population,region,subregion,capital,tld,currencies,languages,borders,flags`
+    `/name/${name}?fulltext=true&fields=name,population,region,subregion,
+    capital,tld,currencies,languages,borders,flags`
   );
 };
 
