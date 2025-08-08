@@ -1,36 +1,48 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react"; // ✅ added import
 
-export const Headers =()=>{
-    return <header>
-        <div className="container">
-            <div className="grid navbar-grid">
-                <div className="Logo">
-                    <NavLink to ="/">
-                    <h1>WorldAtlas</h1>
-                    </NavLink>
-                </div>
-                <nav>
-                    <ul>
-                        <li>
-                            <NavLink to="/">Home</NavLink>
+export const Headers = () => {
+  const [show, setShow] = useState(false);
 
-                        </li>
-                        <li>
-                            <NavLink to="/about">About</NavLink>
+  const handleButtonToggle = () => {
+    setShow(!show);
+  };
 
-                        </li>
-                        <li>
-                            <NavLink to="/contect">Contect</NavLink>
+  return (
+    <header>
+      <div className="container">
+        <div className="grid navbar-grid">
+          <div className="Logo">
+            <NavLink to="/">
+              <h1>WorldAtlas</h1>
+            </NavLink>
+          </div>
 
-                        </li>
-                        <li>
-                            <NavLink to="/country">Country</NavLink>
+          <nav className={show ? "menu-mobile" : "menu-web"}>
+            <ul>
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about">About</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contact</NavLink>
+              </li>
+              <li>
+                <NavLink to="/country">Country</NavLink>
+              </li>
+            </ul>
+          </nav>
 
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+          <div className="ham-menu">
+            <button onClick={handleButtonToggle}>
+              <GiHamburgerMenu />
+            </button>
+          </div>
         </div>
-
+      </div>
     </header>
-}
+  );
+};

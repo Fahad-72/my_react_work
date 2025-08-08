@@ -22,7 +22,7 @@ export const CountryCard=({country})=>{
                     {capital[0]}
                 </p>
 
-               <NavLink to={`/country/${country.cca3}`}>
+               <NavLink to={`/country/${country?.name?.common}`}>
   <button>Details</button>
 </NavLink>
 

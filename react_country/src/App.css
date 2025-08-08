@@ -175,6 +175,40 @@ nav ul li a:hover::after {
 .ham-menu {
   display: none;
 }
+@media  screen and (max-width :998px) {
+  .menu.web{
+    display: none;
+  }
+  .ham-menu{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu-mobile{
+    position: absolute;
+    top: 10rem;
+    left: 0%;
+    background-color: #0d1212;
+    width: 100%;
+    box-shadow: rgba(135, 135, 135, 0.25);
+
+
+  }
+  menu-mobil ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & li:first-child{
+      margin-top: 1.2rem;
+    }
+    & li:last-child{
+      margin-bottom: 1.2rem;
+    }
+ 
+  }
+
+  
+}
 
 /* ========================================
    Hero Section
@@ -348,8 +382,9 @@ nav ul li a:hover::after {
 
 /*Contect css*/
 /* General section styling */
-.section-contect {
+.section-contact {
   min-height: 100vh;
+  
   background-color: #000;
   color: #fff;
   display: flex;
@@ -586,6 +621,62 @@ button {
 button:hover {
   background-color: #ddd;
 }
+
+
+
+/*search filter*/
+
+.section-searchfilter {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 0.5fr; /* first column wider */
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.section-searchfilter input[type="text"],
+.section-searchfilter select,
+.section-searchfilter button {
+  background-color: #111;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  height: 30px; /* uniform height */
+  width: 70%; /* make them stretch to fill column */
+}
+
+.section-searchfilter button {
+  background-color: #1e1e1e;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.section-searchfilter button:hover {
+  background-color: #333;
+  border-color: #666;
+}
+
+.section-searchfilter select:hover,
+.section-searchfilter input[type="text"]:hover {
+  border-color: #666;
+}
+
+.filters{
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  
+}
+
+
+
+
+
+
 
 
 
